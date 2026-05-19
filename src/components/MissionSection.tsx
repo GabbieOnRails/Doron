@@ -7,10 +7,14 @@ export default function MissionSection() {
       <div className="max-w-[1800px] mx-auto px-6 md:px-12 w-full">
         <div className="relative group aspect-[4/5] md:aspect-[21/9] w-full overflow-hidden rounded-[2rem] md:rounded-[3rem] bg-brand-brown">
           {/* Background Image */}
-          <img 
+          <motion.img 
+            initial={{ scale: 1.1 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
             src="https://i.ibb.co/G3dJFR1p/doron-men-1777877589-3889441349867265491-3615955564.jpg" 
             alt="Doron Men"
-            className="absolute inset-0 w-full h-full object-cover transition-all duration-1000 group-hover:scale-105 brightness-[1.05] contrast-[1.05]"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 brightness-[1.05] contrast-[1.05]"
             referrerPolicy="no-referrer"
           />
           

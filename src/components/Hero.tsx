@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -28,10 +29,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/10" />
       </div>
 
-      <div className="relative z-10 w-full max-w-[1800px] mx-auto px-6 md:px-12 pb-12">
-
-
-
+      <div className="relative z-10 w-full max-w-[1800px] mx-auto px-6 md:px-12 pb-24">
       </div>
     </section>
   );

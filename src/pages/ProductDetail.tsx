@@ -60,7 +60,12 @@ export default function ProductDetail() {
           </div>
           
           {/* Info */}
-          <div className="lg:col-span-5">
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2 }}
+            className="lg:col-span-5"
+          >
             <div className="sticky top-40 space-y-12">
               <div className="space-y-4">
                 <span className="text-[10px] uppercase tracking-[0.4em] font-bold opacity-30">
@@ -125,7 +130,7 @@ export default function ProductDetail() {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 

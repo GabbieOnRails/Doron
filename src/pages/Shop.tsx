@@ -14,14 +14,19 @@ export default function Shop() {
       <Navbar />
       
       <div className="pt-40 pb-24 max-w-[1800px] mx-auto px-6 md:px-12">
-        <header className="mb-20">
+        <motion.header 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="mb-20"
+        >
           <h1 className="text-4xl md:text-5xl font-display font-black uppercase tracking-tight mb-4">
             Catalog
           </h1>
           <p className="text-brand-brown opacity-60 text-sm max-w-xl">
             Exploring the intersection of architectural structure and fluid movement through our full collection of systemic wear.
           </p>
-        </header>
+        </motion.header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-20">
           {PRODUCTS.map((product, index) => (

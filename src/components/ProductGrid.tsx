@@ -9,7 +9,13 @@ export default function ProductGrid() {
   return (
     <section className="min-h-screen flex flex-col justify-center py-24 bg-white snap-start">
       <div className="max-w-[1800px] mx-auto px-6 md:px-12 w-full">
-        <div className="flex justify-between items-end mb-16 px-2">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="flex justify-between items-end mb-16 px-2"
+        >
           <h2 className="text-4xl md:text-5xl font-display font-bold tracking-tighter text-brand-ink">
             Doron Men's Favourite
           </h2>
@@ -19,7 +25,7 @@ export default function ProductGrid() {
           >
             Shop All <ArrowRight className="w-4 h-4" />
           </Link>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-16 px-2">
           {displayProducts.map((product, index) => (
