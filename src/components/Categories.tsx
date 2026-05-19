@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
-import suitsImg from "@/src/assets/images/doron_suits_1779184286093.png";
-import outerwearImg from "@/src/assets/images/doron_outerwear_1779184301790.png";
-import accessoriesImg from "@/src/assets/images/doron_accessories_1779184321153.png";
-import footwearImg from "@/src/assets/images/doron_footwear_1779184337800.png";
+import suitsImg from "../assets/images/doron_suits_1779184286093.png";
+import outerwearImg from "../assets/images/doron_outerwear_1779184301790.png";
+import accessoriesImg from "../assets/images/doron_accessories_1779184321153.png";
+import footwearImg from "../assets/images/doron_footwear_1779184337800.png";
 
 const CATEGORIES = [
   {

@@ -6,6 +6,9 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    optimizeDeps: {
+      exclude: ['node-fetch', 'gaxios']
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

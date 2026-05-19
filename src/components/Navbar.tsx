@@ -25,7 +25,7 @@ export default function Navbar() {
   }, [location.pathname]);
 
   const navStyles = isHomePage 
-    ? (isScrolled ? "bg-brand-brown/95 backdrop-blur-md py-4" : "bg-transparent py-8")
+    ? (isScrolled ? "bg-brand-brown/95 backdrop-blur-md py-4 shadow-lg" : "bg-transparent py-8")
     : "bg-brand-brown py-4 shadow-sm";
 
   return (

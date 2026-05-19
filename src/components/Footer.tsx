@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Twitter, Facebook as PinterestIcon } from "lucide-react";
+import { Instagram, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -42,7 +42,6 @@ export default function Footer() {
           {/* Newsletter Section */}
           <div className="lg:w-1/3 space-y-10 lg:space-y-12 order-1 lg:order-2">
             <div className="flex justify-center lg:justify-end gap-6 text-brand-ink">
-              <a href="#" className="hover:opacity-50 transition-opacity"><Facebook className="w-5 h-5" /></a>
               <a href="#" className="hover:opacity-50 transition-opacity"><Instagram className="w-5 h-5" /></a>
               <a href="#" className="hover:opacity-50 transition-opacity"><Twitter className="w-5 h-5" /></a>
             </div>
