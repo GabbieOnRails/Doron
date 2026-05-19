@@ -23,7 +23,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-brand-beige py-20 pb-0 overflow-hidden snap-start">
+    <footer className="bg-brand-beige py-20 pb-0 overflow-hidden">
       <div className="max-w-[1800px] mx-auto px-6 md:px-12">
         <motion.div 
           variants={containerVariants}

@@ -7,7 +7,7 @@ export default function ProductGrid() {
   const displayProducts = PRODUCTS.slice(0, 6);
 
   return (
-    <section className="min-h-screen flex flex-col justify-center py-24 bg-white snap-start">
+    <section className="min-h-screen flex flex-col justify-center py-24 bg-white">
       <div className="max-w-[1800px] mx-auto px-6 md:px-12 w-full">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

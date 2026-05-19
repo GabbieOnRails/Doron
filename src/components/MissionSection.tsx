@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function MissionSection() {
   return (
-    <section className="py-24 bg-white snap-start">
+    <section className="py-24 bg-white">
       <div className="max-w-[1800px] mx-auto px-6 md:px-12 w-full">
         <div className="relative group aspect-[4/5] md:aspect-[21/9] w-full overflow-hidden rounded-[2rem] md:rounded-[3rem] bg-brand-brown">
           {/* Background Image */}

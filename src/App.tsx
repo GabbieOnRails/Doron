@@ -26,7 +26,7 @@ function Home() {
   });
 
   return (
-    <main className="relative selection:bg-brand-brown selection:text-white h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
+    <main className="relative selection:bg-brand-brown selection:text-white min-h-screen scroll-smooth">
       {/* Scroll Progress Bar */}
       <motion.div
         className="fixed top-0 left-0 right-0 h-[6px] bg-brand-brown z-[60] origin-left"

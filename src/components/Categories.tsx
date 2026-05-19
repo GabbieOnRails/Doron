@@ -34,7 +34,7 @@ const CATEGORIES = [
 
 export default function Categories() {
   return (
-    <section className="h-screen flex flex-col justify-center py-32 bg-brand-offwhite snap-start">
+    <section className="h-screen flex flex-col justify-center py-32 bg-brand-offwhite">
       <div className="max-w-[1800px] mx-auto px-6 md:px-12 w-full">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12 mb-20">
           <div>

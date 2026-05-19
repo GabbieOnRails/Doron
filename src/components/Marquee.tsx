@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export default function Marquee() {
   return (
-    <section className="h-screen flex items-center border-y border-brand-ink/10 overflow-hidden bg-brand-ink text-white snap-start">
+    <section className="h-screen flex items-center border-y border-brand-ink/10 overflow-hidden bg-brand-ink text-white">
       <div className="flex animate-marquee whitespace-nowrap">
         {[...Array(2)].map((_, i) => (
           <div key={i} className="flex items-center gap-12 px-6">
