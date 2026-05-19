@@ -1,0 +1,6 @@
+{
+  "name": "doron",
+  "description": "High-end luxury Men's Fashion ecommerce website with cinematic imagery and polished interactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
